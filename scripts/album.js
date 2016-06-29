@@ -189,7 +189,7 @@ var nextSong = function() {
   var $previousSongNumberCell = getSongNumberCell(currentlyPlayingSongNumber);
   var $lastSongNumberCell = getSongNumberCell(lastSongNumber);
 
-  $nextSongNumberCell.html(pauseButtonTemplate);
+  $previousSongNumberCell.html(pauseButtonTemplate);
   $lastSongNumberCell.html(lastSongNumber);
 };
 
